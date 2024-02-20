@@ -11,7 +11,11 @@ import SwiftUI
 struct HaxorNewsApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeListView()
+            NavigationView(content: {
+                HomeListView()
+            })
+            
         }
     }
 }
+

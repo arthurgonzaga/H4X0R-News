@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		5A1EBCDCAE01B96889C653D9 /* Pods_H4X0R_News.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63AF7F7415E5A944EDF6228 /* Pods_H4X0R_News.framework */; };
+		8E1310A32B834F7D0032A467 /* HaxorRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1310A22B834F7D0032A467 /* HaxorRepository.swift */; };
+		8E1310A52B8350800032A467 /* HaxorRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1310A42B8350800032A467 /* HaxorRepositoryImpl.swift */; };
+		8E1310A92B8353980032A467 /* GetFrontPageUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1310A82B8353980032A467 /* GetFrontPageUseCase.swift */; };
+		8E1310AD2B8357F20032A467 /* FrontPageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1310AC2B8357F20032A467 /* FrontPageEntity.swift */; };
+		8E1310B12B83591E0032A467 /* ModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1310B02B83591E0032A467 /* ModelMapper.swift */; };
+		8E1310B32B835A930032A467 /* EntityMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1310B22B835A930032A467 /* EntityMapper.swift */; };
+		8E1310B52B835D810032A467 /* GetFrontPageUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1310B42B835D810032A467 /* GetFrontPageUseCaseImpl.swift */; };
+		8E1310B82B835EB20032A467 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1310B72B835EB20032A467 /* Result.swift */; };
+		8E1310BA2B836E7C0032A467 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1310B92B836E7C0032A467 /* HomeViewModel.swift */; };
 		8EA1EEC62B8272BF0022E263 /* HaxorNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1EEC52B8272BF0022E263 /* HaxorNewsApp.swift */; };
 		8EA1EEC82B8272BF0022E263 /* HomeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1EEC72B8272BF0022E263 /* HomeListView.swift */; };
 		8EA1EECA2B8272C00022E263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA1EEC92B8272C00022E263 /* Assets.xcassets */; };
@@ -16,10 +25,20 @@
 		8EA1EEDD2B8293860022E263 /* FrontPageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1EEDC2B8293860022E263 /* FrontPageResponse.swift */; };
 		8EA1EEDF2B8297300022E263 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1EEDE2B8297300022E263 /* Post.swift */; };
 		8EA1EEE12B8299A40022E263 /* RemoteDataSoureProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1EEE02B8299A40022E263 /* RemoteDataSoureProtocol.swift */; };
+		8EF954B42B84ACBB00BE4DF5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF954B32B84ACBB00BE4DF5 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		626D0110802E2BC4CAD8B435 /* Pods-H4X0R News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H4X0R News.release.xcconfig"; path = "Target Support Files/Pods-H4X0R News/Pods-H4X0R News.release.xcconfig"; sourceTree = "<group>"; };
+		8E1310A22B834F7D0032A467 /* HaxorRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaxorRepository.swift; sourceTree = "<group>"; };
+		8E1310A42B8350800032A467 /* HaxorRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaxorRepositoryImpl.swift; sourceTree = "<group>"; };
+		8E1310A82B8353980032A467 /* GetFrontPageUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFrontPageUseCase.swift; sourceTree = "<group>"; };
+		8E1310AC2B8357F20032A467 /* FrontPageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageEntity.swift; sourceTree = "<group>"; };
+		8E1310B02B83591E0032A467 /* ModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMapper.swift; sourceTree = "<group>"; };
+		8E1310B22B835A930032A467 /* EntityMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityMapper.swift; sourceTree = "<group>"; };
+		8E1310B42B835D810032A467 /* GetFrontPageUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFrontPageUseCaseImpl.swift; sourceTree = "<group>"; };
+		8E1310B72B835EB20032A467 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		8E1310B92B836E7C0032A467 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		8EA1EEC22B8272BF0022E263 /* H4X0R News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA1EEC52B8272BF0022E263 /* HaxorNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaxorNewsApp.swift; sourceTree = "<group>"; };
 		8EA1EEC72B8272BF0022E263 /* HomeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListView.swift; sourceTree = "<group>"; };
@@ -29,6 +48,7 @@
 		8EA1EEDC2B8293860022E263 /* FrontPageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageResponse.swift; sourceTree = "<group>"; };
 		8EA1EEDE2B8297300022E263 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		8EA1EEE02B8299A40022E263 /* RemoteDataSoureProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSoureProtocol.swift; sourceTree = "<group>"; };
+		8EF954B32B84ACBB00BE4DF5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		A63AF7F7415E5A944EDF6228 /* Pods_H4X0R_News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_H4X0R_News.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE07CF77111A77D51EAB55A /* Pods-H4X0R News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H4X0R News.debug.xcconfig"; path = "Target Support Files/Pods-H4X0R News/Pods-H4X0R News.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +65,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E1310A02B834EDE0032A467 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8E1310A42B8350800032A467 /* HaxorRepositoryImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		8E1310A12B834EE50032A467 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8E1310A22B834F7D0032A467 /* HaxorRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		8E1310AA2B8357090032A467 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				8E1310A82B8353980032A467 /* GetFrontPageUseCase.swift */,
+				8E1310B42B835D810032A467 /* GetFrontPageUseCaseImpl.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		8E1310AB2B8357DE0032A467 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8E1310AC2B8357F20032A467 /* FrontPageEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		8E1310AE2B8358E40032A467 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8E1310B62B835EA30032A467 /* Util */,
+				8E1310AF2B8358E90032A467 /* Mapper */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8E1310AF2B8358E90032A467 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				8E1310B02B83591E0032A467 /* ModelMapper.swift */,
+				8E1310B22B835A930032A467 /* EntityMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		8E1310B62B835EA30032A467 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8E1310B72B835EB20032A467 /* Result.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		8EA1EEB92B8272BE0022E263 = {
 			isa = PBXGroup;
 			children = (
@@ -66,11 +145,10 @@
 		8EA1EEC42B8272BF0022E263 /* H4X0R News */ = {
 			isa = PBXGroup;
 			children = (
-				8EA1EED72B828DAD0022E263 /* Core */,
+				8E1310AE2B8358E40032A467 /* Core */,
 				8EA1EED82B828DBB0022E263 /* Data */,
 				8EA1EED92B828E180022E263 /* Domain */,
 				8EA1EED62B828D970022E263 /* Presentation */,
-				8EA1EEC72B8272BF0022E263 /* HomeListView.swift */,
 				8EA1EEC52B8272BF0022E263 /* HaxorNewsApp.swift */,
 				8EA1EEC92B8272C00022E263 /* Assets.xcassets */,
 				8EA1EECB2B8272C00022E263 /* Preview Content */,
@@ -89,21 +167,19 @@
 		8EA1EED62B828D970022E263 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				8EF954B22B84AC8800BE4DF5 /* Detail */,
+				8EF954B12B84AC7E00BE4DF5 /* Home */,
+				8EA1EEC72B8272BF0022E263 /* HomeListView.swift */,
+				8E1310B92B836E7C0032A467 /* HomeViewModel.swift */,
 			);
 			path = Presentation;
-			sourceTree = "<group>";
-		};
-		8EA1EED72B828DAD0022E263 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Core;
 			sourceTree = "<group>";
 		};
 		8EA1EED82B828DBB0022E263 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				8EA1EEDB2B8293630022E263 /* Source */,
+				8E1310A02B834EDE0032A467 /* Repository */,
+				8EA1EEDB2B8293630022E263 /* DataSource */,
 				8EA1EEDA2B828F110022E263 /* Model */,
 			);
 			path = Data;
@@ -112,6 +188,9 @@
 		8EA1EED92B828E180022E263 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				8E1310AB2B8357DE0032A467 /* Entities */,
+				8E1310AA2B8357090032A467 /* UseCase */,
+				8E1310A12B834EE50032A467 /* Repository */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -125,13 +204,28 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		8EA1EEDB2B8293630022E263 /* Source */ = {
+		8EA1EEDB2B8293630022E263 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
 				8EA1EEE02B8299A40022E263 /* RemoteDataSoureProtocol.swift */,
 				8EA1EED42B828D3A0022E263 /* RemoteDataSource.swift */,
 			);
-			path = Source;
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		8EF954B12B84AC7E00BE4DF5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8EF954B22B84AC8800BE4DF5 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				8EF954B32B84ACBB00BE4DF5 /* DetailView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		BBC8E2B4C40120FF3E0AE7C7 /* Frameworks */ = {
@@ -265,12 +359,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1310B52B835D810032A467 /* GetFrontPageUseCaseImpl.swift in Sources */,
 				8EA1EEE12B8299A40022E263 /* RemoteDataSoureProtocol.swift in Sources */,
 				8EA1EEDD2B8293860022E263 /* FrontPageResponse.swift in Sources */,
+				8E1310A32B834F7D0032A467 /* HaxorRepository.swift in Sources */,
+				8E1310B82B835EB20032A467 /* Result.swift in Sources */,
+				8E1310B12B83591E0032A467 /* ModelMapper.swift in Sources */,
 				8EA1EEC82B8272BF0022E263 /* HomeListView.swift in Sources */,
 				8EA1EED52B828D3A0022E263 /* RemoteDataSource.swift in Sources */,
+				8E1310A52B8350800032A467 /* HaxorRepositoryImpl.swift in Sources */,
+				8EF954B42B84ACBB00BE4DF5 /* DetailView.swift in Sources */,
+				8E1310B32B835A930032A467 /* EntityMapper.swift in Sources */,
+				8E1310AD2B8357F20032A467 /* FrontPageEntity.swift in Sources */,
 				8EA1EEC62B8272BF0022E263 /* HaxorNewsApp.swift in Sources */,
 				8EA1EEDF2B8297300022E263 /* Post.swift in Sources */,
+				8E1310BA2B836E7C0032A467 /* HomeViewModel.swift in Sources */,
+				8E1310A92B8353980032A467 /* GetFrontPageUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

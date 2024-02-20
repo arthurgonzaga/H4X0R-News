@@ -6,9 +6,8 @@
 //
 
 import Foundation
-import Alamofire
 
 protocol RemoteDataSoureProtocol {
     
-    func getFrontPageList() async throws -> Result<FrontPageResponse, AFError>
+    func getFrontPageList() async throws -> Result<FrontPageResponse>
 }
